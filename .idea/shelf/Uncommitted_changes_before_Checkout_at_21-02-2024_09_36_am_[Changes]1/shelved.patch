@@ -1,0 +1,21 @@
+Index: src/main/java/org/example/Calculate.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Calculate {\r\n    public int sub(int a,int b) {\r\n        return (a - b);\r\n    }\r\n    public int add(int a,int b){\r\n        return (a+b);\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Calculate.java b/src/main/java/org/example/Calculate.java
+--- a/src/main/java/org/example/Calculate.java	
++++ b/src/main/java/org/example/Calculate.java	
+@@ -1,9 +1,7 @@
+ package org.example;
+ 
+ public class Calculate {
+-    public int sub(int a,int b) {
+-        return (a - b);
+-    }
++
+     public int add(int a,int b){
+         return (a+b);
+ 
