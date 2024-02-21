@@ -1,0 +1,26 @@
+From 555ab583fe740074068803a84212e03d681aa185 Mon Sep 17 00:00:00 2001
+From: Jamuna-nagendran <jamuna.nagendran@gmail.com>
+Date: Wed, 21 Feb 2024 13:21:43 +0530
+Subject: [PATCH] Added shape() in Example Class in feature branch
+
+---
+ src/main/java/org/example/Example.java | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 src/main/java/org/example/Example.java
+
+diff --git a/src/main/java/org/example/Example.java b/src/main/java/org/example/Example.java
+new file mode 100644
+index 0000000..183b722
+--- /dev/null
++++ b/src/main/java/org/example/Example.java
+@@ -0,0 +1,7 @@
++package org.example;
++
++public class Example {
++    public void shape(){
++        System.out.println("You can any shape here");
++    }
++}
+-- 
+2.41.0.windows.1
+
